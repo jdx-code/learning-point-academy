@@ -1,0 +1,53 @@
+.why-section {
+  background-color: #8b2b2b;
+  color: #fff;
+  padding: 60px 5%;
+}
+
+.why-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.why-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.why-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.why-container li {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+
+.why-container li strong {
+  color: #fff;
+}
+
+.subjects {
+  margin-top: 40px;
+}
+
+.subjects h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.subjects p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .why-container h2 {
+    font-size: 1.3rem;
+  }
+  .why-container li {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,39 @@
+.hero-section {
+  background-image: url("/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.hero-divider {
+  width: 80%;
+  height: 8px;
+  background-color: #b71c1c;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 1.5rem;
+  }
+}
