@@ -1,39 +1,44 @@
 .hero-section {
-  background-image: url("/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
   position: relative;
+  height: 100vh;
+  background: url("/hero-bg.jpg") center/cover no-repeat;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 20px;
-  width: 90%;
-  border-radius: 10px;
+  padding: 40px;
+  color: #fff;
+  border-radius: 12px;
+  max-width: 800px;
 }
 
 .hero-overlay h1 {
   font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.hero-overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffeb3b;
+}
+
+.hero-overlay p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f1f1f1;
+  margin-bottom: 25px;
 }
 
 .hero-divider {
-  width: 80%;
-  height: 8px;
-  background-color: #b71c1c;
-  margin: 20px auto 0;
-  border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-  .hero-overlay h1 {
-    font-size: 1.5rem;
-  }
+  width: 80px;
+  height: 3px;
+  background: #ffeb3b;
+  margin: 0 auto;
+  border-radius: 2px;
 }

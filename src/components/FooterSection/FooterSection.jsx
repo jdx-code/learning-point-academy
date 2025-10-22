@@ -1,10 +1,9 @@
-
 import React from "react";
 import "./FooterSection.css";
 
 const FooterSection = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="blogs">
       <div className="footer-container">
         <div className="footer-map">
           <iframe
@@ -19,16 +18,16 @@ const FooterSection = () => {
         </div>
 
         <div className="footer-info">
-          <h3>Scholar Home Tutorial</h3>
+          <h3>The Learning Point Academy</h3>
           <p>📍 Guwahati, Assam, India</p>
-          <p>📞 +91 98765 43210</p>
-          <p>📧 info@scholarhometutorial.com</p>
+          <p>📞 +91 12345 54321</p>
+          <p>📧 info@thelearningpointacademy.com</p>
           <p>⏰ Mon–Sat: 9:00 AM – 8:00 PM</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Scholar Home Tutorial. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} The Learning Point Academy. All rights reserved.</p>
       </div>
     </footer>
   );

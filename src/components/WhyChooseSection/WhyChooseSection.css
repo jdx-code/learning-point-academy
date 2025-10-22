@@ -12,42 +12,73 @@
 .why-container h2 {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
-.why-container ul {
-  list-style-type: square;
-  padding-left: 20px;
+.why-list {
+  list-style: none;
+  padding-left: 0;
   line-height: 1.8;
 }
 
-.why-container li {
+.why-list li {
   margin-bottom: 12px;
   font-size: 1.05rem;
 }
 
-.why-container li strong {
-  color: #fff;
-}
-
-.subjects {
+.programs, .parents, .enroll {
   margin-top: 40px;
 }
 
-.subjects h3 {
-  font-weight: 700;
+.programs h3,
+.parents h3,
+.enroll h3 {
   font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-.subjects p {
+.programs ul,
+.parents ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  line-height: 1.8;
+}
+
+.programs ul li,
+.parents ul li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.enroll p {
   font-size: 1.1rem;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  margin: 35px auto;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
   .why-container h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
-  .why-container li {
+  .programs h3,
+  .parents h3,
+  .enroll h3 {
+    font-size: 1.1rem;
+  }
+  .why-list li,
+  .programs ul li,
+  .parents ul li {
     font-size: 0.95rem;
   }
 }

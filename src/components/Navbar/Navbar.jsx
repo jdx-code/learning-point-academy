@@ -10,14 +10,15 @@ const Navbar = () => {
         <div className="navbar-logo">
           {/* <img src="/vite.svg" alt="Logo" className="logo" /> */}
           <h4 style={{ color: '#000' }}>The Learning Point Academy</h4>
-        </div>
+        </div>        
 
         <div className={`navbar-links ${isOpen ? "active" : ""}`}>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#blogs">Blogs</a>
-          <a href="#service">Service Area</a>
+          <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#whychoose" onClick={() => setIsOpen(false)}>Why Choose Us</a>
+          <a href="#students" onClick={() => setIsOpen(false)}>Our Students</a>
         </div>
+
 
         <div
           className={`hamburger ${isOpen ? "active" : ""}`}
