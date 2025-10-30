@@ -3,8 +3,9 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 100%;    
   z-index: 100;
+  padding: 1rem 0rem;
 }
 
 .navbar-container {
@@ -35,7 +36,7 @@
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.07rem;
   transition: color 0.3s ease;
 }
 

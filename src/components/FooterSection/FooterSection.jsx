@@ -19,10 +19,10 @@ const FooterSection = () => {
 
         <div className="footer-info">
           <h3>The Learning Point Academy</h3>
-          <p>📍 Guwahati, Assam, India</p>
-          <p>📞 +91 12345 54321</p>
-          <p>📧 info@thelearningpointacademy.com</p>
-          <p>⏰ Mon–Sat: 9:00 AM – 8:00 PM</p>
+          <p>📍Visit Us: Guwahati, Assam, India</p>
+          <p>📞Contact: +91 12345 54321</p>
+          <p>📧Email: info@thelearningpointacademy.com</p>
+          {/* <p>⏰ Mon–Sat: 9:00 AM – 8:00 PM</p> */}
         </div>
       </div>
 

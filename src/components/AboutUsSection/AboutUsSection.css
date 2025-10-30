@@ -1,3 +1,4 @@
+/* AboutUsSection.css */
 .about-section {
   padding: 80px 20px;
   background-color: #f9f9f9;
@@ -7,17 +8,27 @@
 .about-container {
   max-width: 900px;
   margin: 0 auto;
+  text-align: left; /* better readability for paragraphs and lists */
 }
 
 .about-container h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #333;
+  text-align: center;
 }
 
 .about-container p {
-  font-size: 1rem;
+  font-size: 1.12rem;
   line-height: 1.7;
   color: #555;
   margin-bottom: 15px;
+}
+
+.about-list {
+  list-style-type: disc;
+  margin: 10px 0 20px 30px;
+  color: #555;
+  font-size: 1.12rem;
+  line-height: 1.7;
 }

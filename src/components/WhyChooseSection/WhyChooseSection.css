@@ -24,17 +24,21 @@
 
 .why-list li {
   margin-bottom: 12px;
-  font-size: 1.05rem;
+  font-size: 1.12rem;
 }
 
 .programs, .parents, .enroll {
   margin-top: 40px;
 }
 
+p{
+  font-size: 1.12rem;
+}
+
 .programs h3,
 .parents h3,
 .enroll h3 {
-  font-size: 1.4rem;
+  font-size: 1.65rem;
   font-weight: 700;
   margin-bottom: 15px;
   text-align: center;
@@ -50,11 +54,11 @@
 .programs ul li,
 .parents ul li {
   margin-bottom: 10px;
-  font-size: 1.05rem;
+  font-size: 1.12rem;
 }
 
 .enroll p {
-  font-size: 1.1rem;
+  font-size: 1.12rem;
   text-align: center;
   margin-top: 10px;
   line-height: 1.6;

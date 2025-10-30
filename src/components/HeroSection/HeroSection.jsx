@@ -8,10 +8,8 @@ const HeroSection = () => {
         <h1>Welcome to The Learning Point Academy</h1>
         <h2>Your Child’s Success, Our Commitment ✨</h2>
         <p>
-          At The Learning Point Academy, we believe that every student has
-          unlimited potential. Our mission is to provide the right guidance,
-          structured learning, and personal care to help students not only
-          score well but also develop a love for learning.
+          At <strong>The Learning Point Academy</strong>, we believe that every student possesses limitless potential waiting to be nurtured. Our mission is to create a supportive, engaging, and disciplined learning environment that empowers students to excel academically and personally.
+We go beyond helping students score better—we strive to cultivate curiosity, confidence, and a lifelong love for learning.
         </p>
         <div className="hero-divider"></div>
       </div>

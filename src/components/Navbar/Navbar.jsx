@@ -9,7 +9,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           {/* <img src="/vite.svg" alt="Logo" className="logo" /> */}
-          <h4 style={{ color: '#000' }}>The Learning Point Academy</h4>
+          {/* <h4 style={{ color: '#000' }}>The Learning Point Academy</h4> */}
+          <img src="/logo.png" alt="The Learning Point Academy Logo" className="logo" />
         </div>        
 
         <div className={`navbar-links ${isOpen ? "active" : ""}`}>
