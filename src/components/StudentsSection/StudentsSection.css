@@ -29,7 +29,13 @@
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 300px;
+  width: 250px;           /* ✅ Fixed width */
+  height: 300px;          /* ✅ Fixed height */
+  display: flex;          /* ✅ Flexbox layout */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;    /* Center horizontally */
+  justify-content: center;/* Center vertically */
+  text-align: center;
 }
 
 .student-card:hover {
@@ -57,16 +63,27 @@
   color: #666;
 }
 
+/* Responsive adjustments */
 @media (max-width: 900px) {
   .students-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  .student-card {
+    width: 250px;
+    height: 300px;
   }
 }
 
 @media (max-width: 600px) {
   .students-grid {
     grid-template-columns: 1fr;
+  }
+
+  .student-card {
+    width: 80%;
+    height: 300px;
   }
 
   .student-img {

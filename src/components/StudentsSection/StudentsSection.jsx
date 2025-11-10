@@ -5,17 +5,17 @@ const StudentsSection = () => {
   const students = [
     {
       name: "Reyan Boro",
-      achievement: "Class XII – 2nd Rank (2024)",
+      achievement: "Class X",
       img: "/student_01.jpeg",
     },
     {
       name: "Shaika Khan",
-      achievement: "Class X – 1st Rank (2024)",
+      achievement: "Class X",
       img: "/student_02.jpeg",
     },    
     {
       name: "Manisha Upadhyay",
-      achievement: "Class X – 3rd Rank (2024)",
+      achievement: "Class X",
       img: "/student_03.jpeg",
     },
   ];
