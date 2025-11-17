@@ -18,6 +18,11 @@ const StudentsSection = () => {
       achievement: "Class X",
       img: "/student_03.jpeg",
     },
+    {
+      name: "Abhishek Verma",
+      achievement: "Class X",
+      img: "/student_04.png",
+    },
   ];
 
   return (

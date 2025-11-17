@@ -5,7 +5,7 @@
   top: 0;
   width: 100%;    
   z-index: 100;
-  padding: 1rem 0rem;
+  padding: 0.1rem 0rem;
 }
 
 .navbar-container {
@@ -22,8 +22,8 @@
 }
 
 .logo {
-  width: 45px;
-  height: 45px;
+  width: 150px;
+  height: 90px;
   object-fit: cover;
 }
 

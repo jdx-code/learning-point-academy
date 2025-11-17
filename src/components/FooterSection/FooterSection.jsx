@@ -20,7 +20,7 @@ const FooterSection = () => {
         <div className="footer-info">
           <h3>The Learning Point Academy</h3>
           <p>📍Address : 1st Floor H No. - 70, Piyoli Phukan Road, Rehabari, Guwahati - 781008 </p>
-          <p>📞Contact: +91 9531290312 / 9864278059</p>
+          <p>📞Contact: (+91) 9531290312 / 9864278059 / 9101178353</p>
           <p>📧Email: contact@thelearningpointacademy.com</p>
           {/* <p>⏰ Mon–Sat: 9:00 AM – 8:00 PM</p> */}
         </div>
